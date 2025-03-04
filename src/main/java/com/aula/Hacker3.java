@@ -14,9 +14,7 @@ public class Hacker3 {
         //scan.nextLine();
         System.out.println("Escreva o numero double:");
         double d = scan.nextDouble();
-        //System.out.println("Escreva uma palavra ou frase:");
-        scan.nextLine(); // Limpa o buffer do Scanner
-       // scan.skip("(\r\n|[\n\r\u2028\u2029\u0085])");
+        scan.nextLine(); // Limpa o buffer do Scanner, nunca esquecer de usar
 
         System.out.println("Escreva uma palavra ou frase:");
         String s = scan.nextLine();
