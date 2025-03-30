@@ -9,7 +9,7 @@ public class Hacker6 {
     public static void main(String []argh)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Insira um numero: ");
+        System.out.println("Insira quantos numeros deseja inserir: ");
         int t=sc.nextInt();
 
         for(int i=0;i<t;i++)
